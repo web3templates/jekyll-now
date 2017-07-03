@@ -18,9 +18,14 @@ html {
 }
 
 body {
-	background: $white;
+	background-color: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+}
+
+body.home {
+background: url('/images/site-bg.jpg') no-repeat center bottom $dark-bg;
+background-size:cover;
 }
 
 .container {
