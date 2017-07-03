@@ -32,7 +32,7 @@ background-size:cover;
     .container {
     text-align: center;
     .d-flex {
-        height: 100vh;
+        height: calc(100vh - 50px);
     }
     }
 }
