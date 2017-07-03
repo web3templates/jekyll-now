@@ -29,6 +29,9 @@ background: url('/images/site-bg.jpg') no-repeat center bottom $dark-bg;
 background-size:cover;
     min-height: 100%;
     color: $white;
+    .container {
+    text-align: center;
+    }
 }
 
 .container {
