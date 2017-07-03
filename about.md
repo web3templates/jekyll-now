@@ -4,12 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hi, I'm Surjith. Freelance Web Designer & Founder of [Web3Canvas](https://web3canvas.com/). Creating usable templates on Themeforest. [See Portfolio](https://themeforest.net/user/surjithctly/portfolio)
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+### Reach me
+[Twitter](https://twitter.com/surjithctly)  [Github](https://github.com/surjithctly)
