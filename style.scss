@@ -43,6 +43,9 @@ body {
   color: $darkGray;
 	 font-weight: 400;
 }
+a {
+    color: #4150c4;
+}
 
 body.home {
 background: url('/images/site-bg.jpg') no-repeat center bottom $dark-bg;
@@ -51,9 +54,11 @@ background-size:cover;
     color: $white;
     .container {
     text-align: center;
+	    @media (min-width:768px) {
     .d-flex {
         height: calc(100vh - 100px);
     }
+	    }
     }
 	h1 {
 		color: $white;
@@ -66,6 +71,32 @@ background-size:cover;
 	opacity:0.78;
 		margin-bottom:50px;
 	}
+}
+
+ @media (max-width:767px) {
+    .d-flex {
+            margin: 50px 0;
+    }
+	 body.home h1 {
+    color: #fff;
+    font-size: 35px;
+	 }
+	 
+	 .gumroad-follow-form-embed input {
+		     width: 100% !important;
+		 border-radius: 4px;
+	 }
+	 
+	 .gumroad-follow-form-embed button {
+		     width: 100%!important;
+		     border-radius: 4px;
+    margin-top: 20px;
+	 }
+	 
+	    }
+
+.footer a {
+padding: 10px;	
 }
 
 h1, h2, h3, h4, h5, h6 {
