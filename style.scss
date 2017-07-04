@@ -93,27 +93,36 @@ background-size:cover;
 	}
 }
 
- @media (max-width:767px) {
-    .d-flex {
-            margin: 50px 0;
-    }
-	 body.home h1 {
-    color: #fff;
-    font-size: 35px;
-	 }
-	 
-	 .gumroad-follow-form-embed input {
-		     width: 100% !important;
-		 border-radius: 4px;
-	 }
-	 
-	 .gumroad-follow-form-embed button {
-		     width: 100%!important;
-		     border-radius: 4px;
-    margin-top: 20px;
-	 }
-	 
-	    }
+@media (max-width:767px) {
+.d-flex {
+margin: 50px 0;
+}
+body.home h1 {
+color: #fff;
+font-size: 35px;
+}
+
+.gumroad-follow-form-embed input {
+width: 100% !important;
+border-radius: 4px;
+}
+
+.gumroad-follow-form-embed button {
+width: 100%!important;
+border-radius: 4px;
+margin-top: 20px;
+}
+
+}
+
+
+ @media (max-width:1200px) {
+	body.home h1 {
+	    font-size: 45px;
+	    line-height: 1.5;	
+	}
+}
+
 
 .footer a {
 padding: 10px;	
